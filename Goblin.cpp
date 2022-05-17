@@ -1,5 +1,4 @@
 #include "Goblin.h"
-#include <iostream>
 
 using namespace std;
 

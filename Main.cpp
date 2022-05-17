@@ -14,27 +14,27 @@ int main()
 {
 	Player* MyPlayer = new Player(100, 100, 100);
 
-	srand(static_cast<unsigned int>(time(NULL)));
+	srand(static_cast<unsigned int>(time(nullptr)));
 
 	// 1-3
 
 	//»ý¼º
-	int RandomG = (rand() % 3) + 1;
-	int RandomB = (rand() % 3) + 1;
-	int RandomS = (rand() % 3) + 1;
+	int RandomN = (rand() % 3) + 1;
 
 	vector<Monster*> Monsters;
-	for (int i = 0; i < RandomG; i++)
+	for (int i = 0; i < RandomN; i++)
 	{
 		Monsters.push_back(new Goblin);
 	}
 
-	for (int i = 0; i < RandomG; i++)
+	RandomN = (rand() % 3) + 1;
+	for (int i = 0; i < RandomN; i++)
 	{
 		Monsters.push_back(new Boar);
 	}
 
-	for (int i = 0; i < RandomG; i++)
+	RandomN = (rand() % 3) + 1;
+	for (int i = 0; i < RandomN; i++)
 	{
 		Monsters.push_back(new Slime);
 	}
