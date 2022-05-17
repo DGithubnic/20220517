@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-	Engine* MyEngine = new Engine();
+	Engine* MyEngine = new Engine();  // ´ÜÀÏ
 
 	MyEngine->Run();
 
