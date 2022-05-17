@@ -3,40 +3,38 @@
 
 using namespace std;
 
-Player::Player()   // 인자들 초기화는 해줘야함.
-	:Hp(0), Mp(0), Gold(0)
+Player::Player()
+	: HP(0), MP(0), Gold(0)
 {
-	cout << "생성자" << endl;
-	//Hp = 0;
-	//Mp = 0;
-	//Gold = 0;
+	cout << "Player 생성자" << endl;
 }
 
-Player::Player(int NewHp, int NewMp, int NewGold)   // _를 보통 쓰긴한다.
-	// 파란색으로 바뀌면 이미 있다는 뜻
+Player::Player(int NewHP, int NewMP, int NewGold)
 {
-	Hp = NewHp;
-	Mp = NewMp;
+	HP = NewHP;
+	MP = NewMP;
 	Gold = NewGold;
 
-	cout << "Player 생성자 있음" << endl;
+	cout << "Player 생성자 인자 있음" << endl;
 
 }
 
 Player::~Player()
 {
-	cout << "소멸자" << endl;
+	cout << "Player 소멸자" << endl;
+
 }
+
 
 void Player::Move()
 {
-
+	cout << "Player 이동" << endl;
 }
+
 void Player::Attack()
 {
-
 }
+
 void Player::Pickup()
 {
-
 }

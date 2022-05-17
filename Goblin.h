@@ -1,14 +1,14 @@
 #pragma once
 #include "Monster.h"
-#include "Common.h"
+#include <iostream>
+
+using namespace std;
 
 class Goblin : public Monster
 {
 public:
 	Goblin();
-	virtual~Goblin();
+	virtual ~Goblin();
 
-	void Move();
-
+	virtual void Move() override;
 };
-

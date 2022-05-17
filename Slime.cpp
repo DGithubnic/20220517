@@ -1,4 +1,7 @@
 #include "Slime.h"
+#include <iostream>
+
+using namespace std;
 
 Slime::Slime()
 {

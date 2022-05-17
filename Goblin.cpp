@@ -1,11 +1,11 @@
 #include "Goblin.h"
 
-using namespace std;
-
 Goblin::Goblin()
 {
 	cout << "고블린 생성자" << endl;
+
 }
+
 Goblin::~Goblin()
 {
 	cout << "고블린 소멸자" << endl;
@@ -14,5 +14,5 @@ Goblin::~Goblin()
 void Goblin::Move()
 {
 	cout << "고블린 이동" << endl;
-}
 
+}

@@ -1,8 +1,12 @@
 #include "Boar.h"
+#include <iostream>
+
+using namespace std;
 
 Boar::Boar()
 {
 	cout << "¸äµÅÁö »ý¼ºÀÚ" << endl;
+
 }
 
 Boar::~Boar()
@@ -12,7 +16,5 @@ Boar::~Boar()
 
 void Boar::Move()
 {
-
 	cout << "¸äµÅÁö ÀÌµ¿" << endl;
-
 }
